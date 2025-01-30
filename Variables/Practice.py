@@ -9,7 +9,7 @@ name_S_var=("UCAS")
 year=("2025")
 eye_color=("Brown")
 age_var=("16")
-Fav_S_Sub_var=("Am Civ")
+Fav_Sch_Sub_var=("Am Civ")
 
 
 
@@ -22,4 +22,4 @@ print(name_S_var)
 print(year)
 print(eye_color)
 print(age_var)
-print(Fav_S_Sub_var)
+print(Fav_Sch_Sub_var)
