@@ -7,4 +7,5 @@ int main(void){
     scanf("%d", &greet);
     printf("%d", greet);
     printf(", Thats a good number!");
+    return 0;
 }
