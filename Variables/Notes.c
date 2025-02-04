@@ -4,7 +4,7 @@
 // Floats float when we set the varible and %f when we print
 // strings (words) char wehn we set the variable and %s
 int mynum;
-
+int percent;
 
 int main(void){
     printf("Type a number: \n");
