@@ -1,4 +1,4 @@
-//Ryan Rowbury, 1stCProgram
+//Ryan Rowbury, Notes
 #include <stdio.h>
 //Intergers |int when we set the varible and 5d when we print
 // Floats float when we set the varible and %f when we print

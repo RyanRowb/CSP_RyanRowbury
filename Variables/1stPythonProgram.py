@@ -1,4 +1,4 @@
-# Ryan Rowbury, Variables Notes
+# Ryan Rowbury, First Python Program
 
 name = input("please tell me you name: ")
 print(name+ ", welcome to my Game.")
@@ -12,7 +12,8 @@ if(g_var == "2"): print("\nYou find yourself in the Magical Forest. You don't kn
 if(g_var == "3"): print("\nYou find yourself in the High Mountains of Halcion, it is cold and very harsh. Your failing camp fire won't do good against this lasting cold.")
 print("What do you do?\n")
 if(g_var == "1"): tav_var = input("1. Leave Room\n2. Look around room\n3. Sleep Longer\n")
-if(g_var == "2"): print("1. Leave Forest\n2. Look around Forest\n3. Find what is giving off that warm glow\n")
-if(g_var == "3"): print("1. Try to climb down the mountain\n2. Try to restart the Campfire\n Look for something like a cave\n")
+if(g_var == "2"): for_var = input("1. Leave Forest\n2. Look around Forest\n3. Find what is giving off that warm glow\n")
+if(g_var == "3"): mou_var = input("1. Try to climb down the mountain\n2. Try to restart the Campfire\n Look for something like a cave\n")
 
 if(tav_var == "1"): print("It works")
+if(tav_var == "2"): 

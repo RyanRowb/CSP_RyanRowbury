@@ -1,4 +1,4 @@
-//Ryan Rowbury, 1stCProgram
+//Ryan Rowbury, TEMPLATE
 #include <stdio.h>
 
 
