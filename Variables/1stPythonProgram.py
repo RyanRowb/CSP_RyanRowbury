@@ -15,5 +15,5 @@ if(g_var == "1"): tav_var = input("1. Leave Room\n2. Look around room\n3. Sleep 
 if(g_var == "2"): for_var = input("1. Leave Forest\n2. Look around Forest\n3. Find what is giving off that warm glow\n")
 if(g_var == "3"): mou_var = input("1. Try to climb down the mountain\n2. Try to restart the Campfire\n Look for something like a cave\n")
 
-if(tav_var == "1"): print("It works")
+if(tav_var == "1"): print("You leave the safe room and enter the empty tavern. Your door slams behind you.")
 if(tav_var == "2"): 
