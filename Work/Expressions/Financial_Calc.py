@@ -1,29 +1,22 @@
 #Ryan R, Financial calculator Python
 
-#Write a print statment telling the user what hte program is (budget cacl)
 print("Welcome to the Budget Caculator.")
-#Ask for monthly income (user input)
-income = float( input("What is your Monthly Income?:"))
-# Ask for rent (user input)
-
-#Ask for utilities (user input)
-
-#Ask for groceries (user input)
-
-#Ask for Transportation (user input)
-
-#Calculate savings as 10% of income (variable)
-
-#How much spending money they have left (Income-everything eles)
-
-#Caculate the perecent of rent (Variables)
-
-#Caculate the perecent of utilities (Variables)
-
-#Caculate the perecent of groceries (Variables)
-
-#Caculate the perecent of transportation (Variables)
-
-#Tell user category spedning amount and percent Ex. ("You spend $XX.XX of your monthly wage on rent.")
-
-#percent and aount of spending money
+income = float( input("What is your Monthly Income?\n:"))
+rent = float(input("What do you pay in rent per month?:\n"))
+utilities = float(input("What do you pay in utilities per month?:\n"))
+groceries = float(input("What do you pay in groceries per month?:\n"))
+transportation = float(input("What do you pay in transportation per month?:\n"))
+savings = income*.1
+print(f"You should save 10% or, {round(savings, 2)} dollars a month")
+rent_per = (rent/income)*100
+uti_per = (utilities/income)*100
+groc_per = (groceries/income)*100
+tran_per = (groceries/income)*100
+print(f"You currently can spend ${rent} or {round(rent_per, 2)}% on rent.")
+print(f"You currently can spend ${utilities} or {round(uti_per, 2)}% on utilities.")
+print(f"You currently can spend ${groceries} or {round(groc_per, 2)}% on groceries.")
+print(f"You currently can spend ${transportation} or {round(tran_per, 2)}% on transportation.")
+spen = income-(rent+utilities+groceries+transportation+savings)
+print(f"You have ${round(spen, 2)} to spend.")
+spen_ver = (spen/income)*100
+print(f"This equates to {round(spen_ver , 2)}% a month.")
