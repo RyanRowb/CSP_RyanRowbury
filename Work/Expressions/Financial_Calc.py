@@ -12,10 +12,10 @@ rent_per = (rent/income)*100
 uti_per = (utilities/income)*100
 groc_per = (groceries/income)*100
 tran_per = (groceries/income)*100
-print(f"You currently can spend ${rent} or {round(rent_per, 2)}% on rent.")
-print(f"You currently can spend ${utilities} or {round(uti_per, 2)}% on utilities.")
-print(f"You currently can spend ${groceries} or {round(groc_per, 2)}% on groceries.")
-print(f"You currently can spend ${transportation} or {round(tran_per, 2)}% on transportation.")
+print(f"You currently spending ${rent} or {round(rent_per, 2)}% on rent.")
+print(f"You currently spending ${utilities} or {round(uti_per, 2)}% on utilities.")
+print(f"You currently spending ${groceries} or {round(groc_per, 2)}% on groceries.")
+print(f"You currently spending ${transportation} or {round(tran_per, 2)}% on transportation.")
 spen = income-(rent+utilities+groceries+transportation+savings)
 print(f"You have ${round(spen, 2)} to spend.")
 spen_ver = (spen/income)*100
