@@ -1,6 +1,6 @@
 //Ryan R, Financial Calculator
 
-//Ryan R, Financial calculator Python
+//Ryan R, Financial calculator C
 
 //Write a print statment telling the user what hte program is (budget cacl)
 
@@ -34,5 +34,5 @@
 
 
 int main(void){
-    
+    printf("Hello, welcome to the Financial Budget Caculator");
 }
