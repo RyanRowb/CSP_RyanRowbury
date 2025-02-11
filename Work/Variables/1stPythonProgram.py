@@ -3,7 +3,7 @@
 lifename = input("please tell me you name: ")
 print(lifename+ ", welcome to my Game.")
 print("**GAME IS UNIFINISHED**")
-q_var=input("Run Game? (Y or N)\n")
+q_var = input("Run Game? (Y or N)\n") .upper()
 if(q_var == "N") :print("Okay, stopping Program")
 if(q_var == "Y") :pname = input("What is your Character's name?\n")
 g_var = input(f"Where would you like to start {pname},\n1. A tavern in a town \n2. The Enchanted Forest \n3. The Mountains of Halcion? ")
@@ -18,4 +18,4 @@ if(g_var == "3"): mou_var = input("1. Try to climb down the mountain\n2. Try to 
 
 if(tav_var == "1"): print("You leave the safe room and enter the empty tavern. Your door slams behind you.")
 if(tav_var == "2"): print("You see nothing")
-if(tav_var == "3"): print ("You sleep longer and awake in a fire.\n GAME OVER")
+if(tav_var == "3"): print ("You sleep longer and awake in a fire.\n\n GAME OVER\n\n\n\n")
