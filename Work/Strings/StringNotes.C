@@ -14,9 +14,6 @@ int main(void){
     char one[] = "Hello ";
     char two[] = "World!";
     char three[]= "This is my program ";
-    printf("%s\n", one);
-    strcat(one, two);
-    printf("%s\n", one);
     strcat(three, two);
     printf("%s\n", three);
     return(0);
