@@ -1,3 +1,5 @@
+#Ryan R, Name Decorator
+
 name = input("What is your first name?\n").lower().strip().capitalize()
 print(f"Hello {name}, welcome to the name decorator.")
 decor = input("How would you like to decorate your name? (Just type the number) \n1. xXNameXx\n2. (:(: Name :) :)\n3. !?Name!?\n Number:") .strip()
