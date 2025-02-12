@@ -31,8 +31,11 @@
 //percent and aount of spending money
 
 #include <stdio.h>
-
+#include <math.h>
+int mon_inc 
 
 int main(void){
     printf("Hello, welcome to the Financial Budget Caculator");
+    printf("What is your Monthly Income?\n");
+    scanf(%d, )
 }
