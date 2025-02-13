@@ -2,9 +2,7 @@
 
 //Ryan R, Financial calculator C
 
-//Write a print statment telling the user what hte program is (budget cacl)
 
-//Ask for monthly income (user input)
 
 // Ask for rent (user input)
 
@@ -32,10 +30,16 @@
 
 #include <stdio.h>
 #include <math.h>
-int mon_inc 
+int mon_inc;
+int rent;
+int util;
+int groc;
+int tran;
+
+
 
 int main(void){
-    printf("Hello, welcome to the Financial Budget Caculator");
+    printf("Hello, welcome to the Financial Budget Caculator\n");
     printf("What is your Monthly Income?\n");
-    scanf(%d, )
+    scanf("%d", mon_inc);
 }
