@@ -6,10 +6,6 @@ char name[20];
 char adj[20];
 char verb[20];
 char buy[20];
-char sentance[6] = "When ";
-char sentpart2[13] = " went to the ";
-char sentpart3[14] = " Store, they ";
-char sentpart4[27] = " to it and bought lots of ";
 
 int main(void){
     //create user inputs (print statments with questions and scaf to collect the info)
