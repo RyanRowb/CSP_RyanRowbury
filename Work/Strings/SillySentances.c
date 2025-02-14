@@ -18,10 +18,10 @@ int main(void){
     scanf("%s", name);
     printf("Give me a random Adjective\n");
     scanf("%s", adj);
-    printf("Give me a random Verb\n");
+    printf("Give me a random Action Verb\n");
     scanf("%s", verb);
     printf("Give me a thing you would buy\n");
     scanf("%s", buy);
-    printf("When", name, "went to the ", adj, "Store, they", verb, "to it and bough lots of", buy);
+    printf("When %s went to the %s Store, they %s to it and bough lots of $s", name, adj, verb, buy);
     return(0);
 }
