@@ -19,5 +19,3 @@ int main(void){
     printf("%d\n", mod);
     printf("%.2f\n", ex);
 }
-
-#testetestst
