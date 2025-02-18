@@ -42,7 +42,7 @@ int main(void){
     printf("You spend $%.2f on utilities or %.2f percent of your monthly income on utilities\n", util, (util/mon_inc));
     printf("You spend $%.2f on groceries or %.2f percent of your monthly income on groceries\n", groc, (groc/mon_inc));
     printf("You spend $%.2f on transportatoin or %.2f percent of your monthly income on transportation\n", tran, (tran/mon_inc));
-    printf("You should also save 10 perecent of your income or $%2.f", (mon_inc* savemon_inc));
+    printf("You should also save 10 perecent of your income or $%2.f\n", (mon_inc* savemon_inc));
     printf("This leaves you with $%.2f to spend this month (If you don't want to save more).", (mon_inc - rent - groc - tran - util -(mon_inc * .1)));
 
 }
