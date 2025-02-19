@@ -1,19 +1,5 @@
 //Ryan R, Financial Calculator
 
-//Calculate savings as 10% of income (variable)
-
-//How much spending money they have left (Income-everything eles)
-
-//Caculate the perecent of rent (Variables)
-
-//Caculate the perecent of utilities (Variables)
-
-//Caculate the perecent of groceries (Variables)
-
-//Caculate the perecent of transportation (Variables)
-
-//Tell user category spedning amount and percent Ex. ("You spend $XX.XX of your monthly wage on rent.")
-
 //percent and aount of spending money
 
 #include <stdio.h>
@@ -42,7 +28,7 @@ int main(void){
     printf("You spend $%.2f on utilities or %.2f percent of your monthly income on utilities\n", util, (util/mon_inc));
     printf("You spend $%.2f on groceries or %.2f percent of your monthly income on groceries\n", groc, (groc/mon_inc));
     printf("You spend $%.2f on transportatoin or %.2f percent of your monthly income on transportation\n", tran, (tran/mon_inc));
-    printf("You should also save 10 perecent of your income or $%2.f\n", (mon_inc* savemon_inc));
-    printf("This leaves you with $%.2f to spend this month (If you don't want to save more).", (mon_inc - rent - groc - tran - util -(mon_inc * .1)));
+    printf("You should also save at least 10 perecent of your income or $%2.f\n", (mon_inc* 0.1));
+    printf("This leaves you with $%.2f or %.2f percent of your monthly income to spend this month (If you don't want to save more).", (mon_inc - rent - groc - tran - util -(mon_inc * 0.1)), (((mon_inc - rent - groc - tran - util -(mon_inc * 0.1))/mon_inc)));
 
 }

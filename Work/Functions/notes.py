@@ -17,4 +17,4 @@ def user():
 name = user("Name")
 verb = user("verb")
 place = user("place")
-print(f"{answer} was {answer} and somehow got to {answer}.")
+print(f"{name} was {verb} and somehow got to {place}.")

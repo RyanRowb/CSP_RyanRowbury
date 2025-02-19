@@ -3,6 +3,7 @@
         "stdio.h": "c",
         "cmath": "c",
         "StringNotes.C": "cpp",
-        "Notes.C": "cpp"
+        "Notes.C": "cpp",
+        "math.h": "c"
     }
 }

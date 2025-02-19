@@ -2,13 +2,7 @@
 
 
 #include <stdio.h>
+char answer[50];
 
-char input(char type[20]){
-    char answer[50];
-    printf("Please give me a %s; \n", type);
-    scanf("%s", answer);
-    return answer;
-}
-int main(void){
-    return(0);
-}
+//DONT RETURN STRINGS IN C++
+
