@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "cmath": "c",
-        "StringNotes.C": "cpp"
+        "StringNotes.C": "cpp",
+        "Notes.C": "cpp"
     }
 }
