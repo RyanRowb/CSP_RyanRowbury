@@ -14,7 +14,7 @@ def user():
     return int(input("Tell me a word"))
 
 
-name = user("Name")
+name = user("name")
 verb = user("verb")
 place = user("place")
 print(f"{name} was {verb} and somehow got to {place}.")
