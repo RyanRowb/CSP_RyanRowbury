@@ -16,6 +16,10 @@ if(g_var == "1"): tav_var = input("1. Leave Room\n2. Look around room\n3. Sleep 
 if(g_var == "2"): for_var = input("1. Leave Forest\n2. Look around Forest\n3. Find what is giving off that warm glow\n")
 if(g_var == "3"): mou_var = input("1. Try to climb down the mountain\n2. Try to restart the Campfire\n Look for something like a cave\n")
 
-if(tav_var == "1"): print("You leave the safe room and enter the empty tavern. Your door slams behind you.")
-if(tav_var == "2"): print("You see nothing")
-if(tav_var == "3"): print ("You sleep longer and awake in a fire.\n\n GAME OVER\n\n\n\n")
+if(tav_var == "1"): tav_var = print("You leave the safe room and enter the empty tavern. Your door slams behind you.")
+if(tav_var == "2"): tav_var = print("You see nothing")
+if(tav_var == "3"): print ("You sleep longer and awake in a fire.\n\n GAME OVER")
+
+if(for_var == "1"): for_var = print("As you leave the forest you are hit by a stray tree branch and fall down a hole. You don't know where you are, but you are sure it is bad.")
+if(for_var == "2"): for_var = print("You see forest")
+if(for_var == "3"): print ("The glow was coming from an wolf who ate lots of fire flys. He is very hungry.\n\n GAME OVER")
