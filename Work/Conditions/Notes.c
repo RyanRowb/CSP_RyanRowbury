@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 char name[] = "Ryan";
-int num = 8;
+int num;
 
 int main(void){
     if(strcmp(name, "Ryan") == 0){
@@ -14,7 +14,8 @@ int main(void){
     // != = not
     // || = or
     // && = and
-
+    printf("Give me a number\n");
+    scanf("%d", num);
     if(num > 5 && num < 10){
         printf("%d is a small digit number\n", num);
         }else if (num > 10){
