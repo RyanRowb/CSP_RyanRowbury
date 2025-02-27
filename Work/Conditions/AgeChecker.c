@@ -5,7 +5,8 @@ int age;
 int main(void){
     printf("What is your age (Number Form)\n");
     scanf("%d", &age);
-    if(age < 5){printf("You are not eligible for anything on this progam.");
+    if(age < 5){
+        printf("You are not eligible for anything on this progam.");
     }else if (age < 15){
         printf("You can go to school");
         }else if (age < 16){

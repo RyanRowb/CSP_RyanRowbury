@@ -11,12 +11,11 @@ int tran;
 
 int user (char* type, int amount){
     printf("What is your %s per month\n", type);
-    return scanf( "%d", amount);
+    return scanf( "%d", &amount);
 }
 
 int spend (char* type2, int charge, int income){
-    char buffer[100];
-    return sprintf(buffer, "You spend $%.2f on %s or %.2f percent of your monthly income on rent\n", charge, type2, (float)charge/income * 100);  
+    printf("You spend $%.2f on %s or %.2f percent of your monthly income on rent\n", charge, type2, ((float)charge/income * 100));  
 }
 
 int main(void){
@@ -36,6 +35,7 @@ int main(void){
     user("Utilities", util);
     user("Grocieries", groc);
     user("Trasportation", tran);
+    printf("%d\n", rent);
     spend("Rent", rent, mon_inc);
     return 0;
     //printf("You spend $%.2f on rent or %.2f percent of your monthly income on rent\n", rent, (rent/mon_inc));
