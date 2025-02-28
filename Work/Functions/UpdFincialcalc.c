@@ -9,9 +9,9 @@ int util;
 int groc;
 int tran;
 
-int user (char* type, int amount){
+int user (char* type, int* amount){
     printf("What is your %s per month\n", type);
-    return scanf( "%d", &amount);
+    return(scanf( "%d", &amount));
 }
 
 int spend (char* type2, int charge, int income){
@@ -30,11 +30,12 @@ int main(void){
     //scanf("%f", &groc);
     //printf("What is your Monthly Transportation bill?\n");
     //scanf("%f", &tran);
-    user("Income", mon_inc);
-    user("Rent", rent);
-    user("Utilities", util);
-    user("Grocieries", groc);
-    user("Trasportation", tran);
+    mon_inc = user("Income", &mon_inc);
+    printf("%d", &mon_inc);
+    rent = user("Rent", &rent);
+    util = user("Utilities", &util);
+    groc = user("Grocieries", &groc);
+    tran = user("Trasportation", &tran);
     printf("%d\n", rent);
     spend("Rent", rent, mon_inc);
     return 0;
