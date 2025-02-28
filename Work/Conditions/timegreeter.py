@@ -8,11 +8,11 @@ hour = local_time.tm_hour
 name = input("What is your name?\n").strip().lower().capitalize()
 if (6 < hour < 11):
     print(f"Good Morning {name}")
-elif (hour < 14):
+elif (hour < 16):
     print("Good Afternoon {name}")
-elif (hour <20):
+elif (hour <22):
     print("Good Night {name}, sleep tight, don't let the bed bugs bite")
-elif (hour<6) or (hour > 24):
+elif (hour<6) or (hour > 22):
     print("GO TO BED {name}")
 else:
     print("You are beyond time itself")
