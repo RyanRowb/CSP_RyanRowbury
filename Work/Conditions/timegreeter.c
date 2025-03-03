@@ -19,5 +19,7 @@ int main(void){
         printf("Welcome to the AM my G bro");
     }else if (hour > 22){
         printf("Go to be lil bro");
-    }else 
+    }else{
+        printf("You are outside the boundries of time, so good luck");
+    }
 }

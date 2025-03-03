@@ -31,7 +31,7 @@ int main(void){
     //printf("What is your Monthly Transportation bill?\n");
     //scanf("%f", &tran);
     mon_inc = user("Income", &mon_inc);
-    printf("%d", &mon_inc);
+    printf("%d\n", &mon_inc);
     rent = user("Rent", &rent);
     util = user("Utilities", &util);
     groc = user("Grocieries", &groc);
