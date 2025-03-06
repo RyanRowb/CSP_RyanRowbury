@@ -1,13 +1,13 @@
 //Ryan Rowbury, Time Greeter
 #include <stdio.h>
 #include <time.h>
-
+int hour;
 
 int main(void){
     time_t now = time(NULL);
     struct tm *tm_truckt = localtime(&now);
     int hour = tm_truckt->tm_hour;
-    scanf("%d\n", hour);
+    scanf("%d", hour);
 
     if (hour < 11){
         printf("Good morning");
