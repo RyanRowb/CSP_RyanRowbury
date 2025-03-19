@@ -9,9 +9,11 @@ int util;
 int groc;
 int tran;
 
-int user (char* type, int* amount){
+int user (char* type){
+    int val;
     printf("What is your %s per month\n", type);
-    return(scanf( "%d", &amount));
+    scanf("%d", val);
+    return(val);
 }
 
 int spend (char* type2, int charge, int income){
@@ -30,12 +32,12 @@ int main(void){
     //scanf("%f", &groc);
     //printf("What is your Monthly Transportation bill?\n");
     //scanf("%f", &tran);
-    mon_inc = user("Income", &mon_inc);
-    printf("%d\n", &mon_inc);
-    rent = user("Rent", &rent);
-    util = user("Utilities", &util);
-    groc = user("Grocieries", &groc);
-    tran = user("Trasportation", &tran);
+    mon_inc = user("Income");
+    printf("%d\n", mon_inc);
+    rent = user("Rent");
+    util = user("Utilities");
+    groc = user("Grocieries");
+    tran = user("Trasportation");
     printf("%d\n", rent);
     spend("Rent", rent, mon_inc);
     return 0;
