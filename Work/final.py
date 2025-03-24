@@ -12,7 +12,6 @@ grid = [["O",2,3],
         ["X","O",6],
         ["X",8,"O"]]
 
-print(grid[2][0])
 #Ryan R (The cool one) Win detector!
 def win(grid):
     if grid[0]==["X","X","X"]:
