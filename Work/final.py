@@ -9,9 +9,9 @@ for grid in grid:
     print(f" {grid[0]} | {grid[1]} | {grid[2]}\n --+---+--")
 
 #Johann, Hines
-grid = [["1","2","3"],
-["4","5","6"],
-["7","8","9"]]
+grid = [["1","2","3"], "\n",
+["4","5","6"], "\n",
+["7","8","9"], "\n"]
 
 game_finished = False 
 taken = []
@@ -43,48 +43,67 @@ while game_finished == False:
             break
 
 
-for grid in grid:
-    print(f"{grid[0]}|{grid[1]}|{grid[2]}\n --+---+--")
+print(grid)
     
 print(taken)
 
 #Ryan R (The cool one) Win detector!
+   
 def win(grid):
-    if grid[0]==["X","X","X"]:
-        print("X wins")
-    elif grid[1]==["X", "X", "X"]:
-        print("X wins")
-    elif grid[2]==["X", "X", "X"]:
-        print("X wins")
-    elif grid[0]==["O", "O", "O"]:
-        print("O wins")
-    elif grid[1]==["O", "O", "O"]:
-        print("O wins")
-    elif grid[2]==["O", "O", "O"]:
-        print("O wins")
-    elif grid[0][0] == "X" and grid[1][0]=="X" and grid[2][0]=="X":
-        print("X wins")
-    elif grid[0][1]=="X" and grid[1][2]=="X" and grid[2][3]=="X":
-        print("X wins")
-    elif grid[0][2]=="X" and grid[1][2]=="X" and grid[2][2]=="X":
-        print("X wins")
-    elif grid[0][0]=="X" and grid[1][1]=="X" and grid[2][2]=="X":
-        print("X wins")
-    elif grid[0][2]=="X" and grid[1][1]=="X" and grid[2][0]=="X":
-        print("X wins")
-    elif grid[0][0]=="O" and grid[1][0]=="O" and grid[2][0]=="O":
-        print("O wins")
-    elif grid[0][1]=="O" and grid[1][2]=="O" and grid[2][3]=="O":
-        print("O wins")
-    elif grid[0][2]=="O" and grid[1][2]=="O" and grid[2][2]=="O":
-        print("O wins")
-    elif grid[0][0]=="O" and grid[1][1]=="O" and grid[2][2]=="O":
-        print("O wins")
-    elif grid[0][2]=="O" and grid[1][1]=="O" and grid[2][0]=="O":
-        print("O wins")
-    elif grid[0][0] != "X" or "O" or grid[0][1] != "X" or "O" or grid[0][2] != "X" or "O" or grid[1][0] != "X" or "O" or grid[1][1] != "X" or "O" or grid[1][2] != "X" or "O" or grid[2][0] != "X" or "O" or grid[2][1] != "X" or "O" or grid[2][2] != "X" or "O":
-        taken.append(spot)
-    else:
-        print("You tied")
+        if list[0]==["X","X","X"]:
+            print("X wins")
+            set (game_finsished = True)
+        elif list[1]==["X", "X", "X"]:
+            print("X wins")
+            set (game_finsished = True)
+        elif list[2]==["X", "X", "X"]:
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0]==["O", "O", "O"]:
+            print("O wins")
+            set (game_finsished = True)
+        elif list[1]==["O", "O", "O"]:
+            print("O wins")
+            set (game_finsished = True)
+        elif list[2]==["O", "O", "O"]:
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][0] == "X" and list[1][0]=="X" and list[2][0]=="X":
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0][1] == "X" and list[1][2]=="X" and list[2][3]=="X":
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0][2] == "X" and list[1][2]=="X" and list[2][2]=="X":
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0][0] == "X" and list[1][1]=="X" and list[2][2]=="X":
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0][2] == "X" and list[1][1]=="X" and list[2][0]=="X":
+            print("X wins")
+            set (game_finsished = True)
+        elif list[0][0] == "O" and list[1][0]=="O" and list[2][0]=="O":
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][1] == "O" and list[1][2]=="O" and list[2][3]=="O":
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][2] == "O" and list[1][2]=="O" and list[2][2]=="O":
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][0] == "O" and list[1][1]=="O" and list[2][2]=="O":
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][2] == "O" and list[1][1]=="O" and list[2][0]=="O":
+            print("O wins")
+            set (game_finsished = True)
+        elif list[0][0] == ("X" or "O") and list[0][1] == ("X" or "O") and list[0][2] == ("X" or "O") and list[1][0] == ("X" or "O") and list[1][1] == ("X" or "O") and list[1][2] == ("X" or "O") and list[2][0] == ("X" or "O") and list[2][1] == ("X" or "O") and list[2][2] == ("X" or "O"):
+             print("Its a tie.")
+             set (game_finsished = True)
+        else:
+            print("Yo.")
 
 win(grid)
+
+print(grid)
