@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="UTF-8">
+        <title>Notes</title>
+        <!--Embeded style sheet-->  
+        <style>
+            /* A selector is how you tell the CSS, what on the page to change. There are three types*/
+            /*1. Element Selector*/
+            *{
+                background-color: #929292;
+            }
+            li{
+                color:goldenrod;
+                font-size: 20px;
+                text-align: left;
+            }
+            /*2. Id Selector*/
+            #even{
+                color:brown;
+            }
+            /*3. Class Selector*/
+            .intro{
+                color: #C69C72 
+            }
+            #tag{
+                font-size: 7px;
+            }
+            #img{
+                width: 500px;
+            }
+            h1{
+                font-size: 5em;
+                text-align: center;
+                text-decoration: underline;
+            }
+            /*WHAT EVER IS LISTED LAST, IS WHAT GOES*/
+        </style>
+    </header>
+    <body>
+        <h1>Html Advanced Notes</h1>
+        <p
+        class="intro">Nesting an html tag is putting it inside of another one. <br><br>H tags should never be nested</p>
+        <ol>
+                <li>Ordered lists number every entry</li>
+                <li>Li tags must be nested</li>
+                <li>What is displayed on the webpage, needs to go into the body tab</li>
+        </ol>
+        <ul>
+            <li>Unordered list just put bullent points</li>
+            <li 
+            id="even">Candy</li>
+            <li
+            id="even">Pie</li>
+            <li>Cake</li>
+        </ul>
+        <img id="img" src="images/TunTunTunTunSahur.jpg" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjiiMnMZDmyEM8hFoLitIlFWu2JDbbwt3SA&s">
+        <p
+        id="tag">Image From <a href="https://www.tiktok.com/discover/tun-tun-tun-tunnnnn" target ="_blank">https://www.tiktok.com/discover/tun-tun-tun-tunnnnn</a></p> 
+    </body>
+</html>
