@@ -1,0 +1,32 @@
+
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    background-color: #4d8375;
+}
+p{
+    background-color:azure;
+    margin: 10px;
+    font-size: xx-large;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color:azure;
+    border: 20px solid #4d8375;
+    border-radius: 10px;
+    text-align:center;
+}
+
+#content{
+    display:grid;
+    grid-template-columns: 1fr .5fr 1.5fr;
+}
+#one{
+    display: flex;
+}
