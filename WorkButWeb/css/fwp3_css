@@ -1,18 +1,18 @@
-            #mamo{
-                width: 50%;
-                height: 50%;
-            }
-            #youngpic{
-                width: 50%;
-                height: 50%; 
-            }
-            #title{
-                text-align: center;
-            }
-            *{
-                background-color: #433e3f;
-                color: #c69c72;
-            }
+#mamo{
+    width: 50%;
+    height: 50%;
+}
+#youngpic{
+     width: 50%;
+     height: 50%; 
+}
+#title{
+    text-align: center;
+}
+*{
+    background-color: #433e3f;
+    color: #c69c72;
+}
             
 
 .lato-regular {
