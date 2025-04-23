@@ -1,7 +1,12 @@
-*{
+body{
     background-color: #433e3f;
     color: #c69c72;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#start{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
 }
 #mamo{
     width: 50%;
@@ -9,7 +14,8 @@
 }
 #youngpic{
      width: 50%;
-     height: 50%; 
+     height: 50%;
+     margin: -10px; 
 }
 #title{
     text-align: center;
