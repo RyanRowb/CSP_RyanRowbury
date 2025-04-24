@@ -1,0 +1,1 @@
+document.getElementById("red").style.width = 50

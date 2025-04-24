@@ -4,11 +4,26 @@
         <meta charset="UTF-8">
         <title>Java Basic</title>
         <script src="javascriptbasic.js"></script>
+        <style>
+            #extra{
+                display: none;
+            }
+        </style>
     </head>
     <body>
         <h1 id="title">Title</h1>
         <button id="button" onclick="hello()">Click me!</button>
         <button id="button" onmouseover="highlight()" onmouseout="normal()" onmousedown="push()" onmousedown="push()"></button>
         <img id="picture" onmouseover="change()" src="https://www.earthdiver.com/cdn-cgi/image/width=4000,quality=75,format=auto/https://assets.earthdiver.com/media/media-2727684.jp?w=5246&h=2193&tick=1667491652923" alt="" width="25%">
+        <button id="shw" onclick="more()">Show More</button>
+        <div id="extra">
+            <p>Wouldn't you like to know more nerd :nerd:
+                <ul>
+                    <li>nerd</li>
+                    <li>nerd</li>
+                    <li>nerd</li>
+                </ul>
+            </p>
+        </div>
     </body>
 </html>
