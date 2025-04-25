@@ -1,1 +1,3 @@
-document.getElementById("red").style.width = 50
+function change(){
+    document.getElementById("tun").style.display = "block"
+}
