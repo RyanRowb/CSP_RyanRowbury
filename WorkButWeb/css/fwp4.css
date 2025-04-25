@@ -1,0 +1,30 @@
+body{
+    background-color: #433e3f;
+    color: #c69c72;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mamo{
+    width: 50%;
+    height: 50%;
+}
+#youngpic{
+     width: 50%;
+     height: 50%;
+}
+#title{
+    text-align: center;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: -5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#displayReasons{
+    display: none;
+}
