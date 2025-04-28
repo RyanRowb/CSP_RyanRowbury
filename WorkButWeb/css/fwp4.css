@@ -25,6 +25,11 @@ h2{
     margin-left: 0px;
     margin-right: 0px;
 }
-#displayReasons{
+#extra{
+    display: none;
+}
+#mal{
+    width: 20%;
+    height: 20%;
     display: none;
 }
