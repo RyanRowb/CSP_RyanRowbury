@@ -1,0 +1,31 @@
+/*colors
+    #A0B2A6 - Light green
+    #61988E - Perry Green
+    #493843 - EggPlant
+    #CBBFBB - light brown
+    #EABDA8 - deep orange
+*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #EABDA8 ;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#start{
+    background-color: #CBBFBB ;
+    border: solid 100px #EABDA8;
+    border-right: solid 1000px #EABDA8;
+    margin: -100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start, flex-start, flex-end;
+    justify-self: flex-start, flex-start,flex-end;
+}
