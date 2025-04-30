@@ -11,21 +11,42 @@ body{
     font-style: normal;
     background-color: #EABDA8 ;
 }
+#start{
+    background-color: #CBBFBB ;
+    margin: 50px;
+    padding-left: 15px;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-between;
+}
+#dolist{
+    background-color: #61988E ;
+    margin: 50px;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: space-between;
+
+}
+#twobox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    align-self: center;
+}
 h1{
     text-align: center;
 }
-h3{
-    text-align: center;
-}
-#start{
-    background-color: #CBBFBB ;
-    border: solid 100px #EABDA8;
-    border-right: solid 1000px #EABDA8;
-    margin: -100px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-start, flex-start, flex-end;
-    justify-self: flex-start, flex-start,flex-end;
+#logo{
+    width: 25%;
+    height: 25%;
 }
