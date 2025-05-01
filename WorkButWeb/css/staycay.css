@@ -10,6 +10,7 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #EABDA8 ;
+    color: #493843;
 }
 #start{
     background-color: #CBBFBB ;
@@ -25,15 +26,14 @@ body{
 }
 #dolist{
     background-color: #61988E ;
-    margin: 50px;
+    margin: 50px;   
     height: 500px;
-    width: 1000px;
+    width: 1000px; 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: right;
-    justify-content: space-between;
-
+    align-items: left;
+    justify-content: center;
 }
 #twobox{
     display: flex;
@@ -46,7 +46,17 @@ h3{
 h1{
     text-align: center;
 }
+img{
+    text-align: center;
+}
 #logo{
-    width: 25%;
-    height: 25%;
+    width: 35%;
+    height: auto;
+}
+#pstr{
+   width: 50%;
+    height: auto;
+}
+#show{
+    display: none;
 }
