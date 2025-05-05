@@ -1,19 +1,18 @@
 /*colors
-    #A0B2A6 - Light green
-    #61988E - Perry Green
-    #493843 - EggPlant
-    #CBBFBB - light brown
-    #EABDA8 - deep orange
+    #F0F0C9 - Cream
+    #6A2E35 - Wine Red
+    #879970 - Moss Green
 */
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #EABDA8 ;
-    color: #493843;
+    background-color: #F0F0C9 ;
+    color: #6A2E35;
 }
 #start{
-    background-color: #CBBFBB ;
+    background-color: #879970 ;
+    border: 5px solid black;
     margin: 50px;
     padding-left: 15px;
     height: 500px;
@@ -25,7 +24,8 @@ body{
     justify-content: space-between;
 }
 #dolist{
-    background-color: #61988E ;
+    background-color: #879970;
+    border: 5px solid black;
     margin: 50px;   
     height: 500px;
     width: 1000px; 
@@ -54,9 +54,24 @@ img{
     height: auto;
 }
 #pstr{
-   width: 50%;
-    height: auto;
+   width: auto;
+    height: 300px;
 }
 #show{
+    display: none;
+    text-align: center;
+    background-color: #879970;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 900px;
+    margin-left: 900px;
+    border: 5px solid black;
+}
+#cenbtn{
+    text-align: center;
+}
+#bridge{
+    width: auto;
+    height: 300px;
     display: none;
 }
