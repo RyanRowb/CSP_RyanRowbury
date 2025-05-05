@@ -1,7 +1,12 @@
 function change(){
-    if(document.getElementById("btn").style.display != 'block'){
-        document.getElementById("show").style.display = 'block'; document.getElementById("btn").textContent = "Display less"
-    }else{
-        document.getElementById("show").style.display = 'none'
+    const show = document.getElementById("show");
+    const btn = document.getElementById("btn");
+
+    if (show.style.display === 'none') {
+        show.style.display = 'block';
+        btn.textContent = "Display Less";
+    } else {
+        show.style.display = 'none';
+        btn.textContent = "Display Reasons?";
     }
 }
